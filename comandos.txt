@@ -1,0 +1,13 @@
+Abrir termilar = Ctr + Shift + T y ecribo terminal + Enter
+Iniciar proyecto de node = npm init -y
+Instalar modulo typescript(solo typescript lo utilizamos en desarrollo y no en ejecucion por eso -D, en ejecucion se utiliza js) = npm i typescript -D
+Ejecutar typescript para crear tsconfig.json = npx tsc --init o npx typescript --init
+Instalar framework de node que nos permite crear el servidor de manera mas sencilla = npm i express
+Convertir nuestro codigo a js para poder ejecutarlo = npx tsc
+Ejecutar nuestro codigo = node dist/index.js
+Instalar modulo para no convertir el codigo cada vez que quiero ejecutar, y que se convierta automaticamente = npm install nodemon -D
+Nodemon solo ejecuta .js, configurar nodemon para que entienda .ts, instalar ts-node = npm i ts-node -D 
+ejecutar comando dev de package.json = npm run dev
+Instalar morgan, cuando un usuario consulte el servidor gracias a morgan vamos a poder ver la peticiones http = npm i morgan y tambien npm i @types/morgan -D
+Instalar modulo de mysql, sirve para conectarse a mysql = npm i mysql2 y tambien npm i types/mysql2 -D
+Ejecutar mysql desde termianl = mysql -u root -p
