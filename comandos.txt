@@ -1,4 +1,4 @@
-Abrir termilar = Ctr + Shift + T y ecribo terminal + Enter
+Abrir termilar = Ctr + Shift + P y ecribo terminal + Enter
 Iniciar proyecto de node = npm init -y
 Instalar modulo typescript(solo typescript lo utilizamos en desarrollo y no en ejecucion por eso -D, en ejecucion se utiliza js) = npm i typescript -D
 Ejecutar typescript para crear tsconfig.json = npx tsc --init o npx typescript --init
